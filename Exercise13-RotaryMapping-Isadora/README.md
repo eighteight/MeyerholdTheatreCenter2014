@@ -16,6 +16,15 @@ Arduino hardware (I used Uno r3)
 
 Rotary encoder (I used COM-10596) https://www.sparkfun.com/products/10596
 
+Reference:
+
+There seems to be a library for this encoder
+
+https://github.com/medecau/QuadEncoder
+
+Also this: https://www.sparkfun.com/products/9117
+
+And this: http://www.circuitsathome.com/mcu/programming/reading-rotary-encoder-on-arduino
 
 
 
