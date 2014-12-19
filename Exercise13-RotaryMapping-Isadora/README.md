@@ -2,6 +2,8 @@ Exercise 13
 
 Use rotary encoder, arduino and Isadora to dynamically projection-map a rotating object
 
+Inspiration: https://www.youtube.com/watch?v=lX6JcybgDFo
+
 Prerequisites:
 
 Isadora http://troikatronix.com/download/isadora-pre-releases/
