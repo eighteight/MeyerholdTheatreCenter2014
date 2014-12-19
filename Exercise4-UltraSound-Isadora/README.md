@@ -1,3 +1,5 @@
+Exercise 4: Arduino + HC-SR04 ultrasonic distance meter + video player controlled by a distance to an object
+
 Prerequisites:
 
 Isadora http://troikatronix.com/download/isadora-pre-releases/
@@ -11,7 +13,7 @@ Arduino hardware (I used Uno r3)
 Ultrasound distance sensor HC-SRO4
 
 
-Exercise 4
+
 
 
 1. Set up the sensor in Arduino as described here: http://www.instructables.com/id/Ultrasonic-Range-detector-using-Arduino-and-the-SR/
