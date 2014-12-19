@@ -14,7 +14,7 @@ Arduino software: http://arduino.cc/en/Main/Software
 
 Arduino hardware (I used Uno r3)
 
-Rotary encoder
+Rotary encoder (I used COM-10596) https://www.sparkfun.com/products/10596
 
 
 
