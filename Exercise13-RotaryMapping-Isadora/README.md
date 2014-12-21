@@ -16,19 +16,23 @@ Arduino hardware (I used Uno r3)
 
 Rotary encoder (I used COM-10596) https://www.sparkfun.com/products/10596
 
-Reference:
 
-There seems to be a library for this encoder
+1. Three pins of the encoder only are used. They are called A, B, C
+2. Connect A and B to analog inputs of Arduino A0 and A1.
+3. Connect C to GND input of Arduino on analogue side
+4. Launch RotaryEncoder/RotaryEncoder.ino in Arduino software
+5. Rotate encoder and observe value change in Serial monitor in Arduino software.
+6. Close Serial monitor above.
+5. Launch RotaryEncoder_Arduino.izz in Isadora.
+6. Set serial speed to 115200
+7. Rotate the encoder and observe the rotation of the movie
 
-https://github.com/medecau/QuadEncoder
-
-Also this: https://www.sparkfun.com/products/9117
-
-And this: http://www.circuitsathome.com/mcu/programming/reading-rotary-encoder-on-arduino
 
 
+Other useful links:
 
+Encoder lib: https://github.com/medecau/QuadEncoder
 
-1. Set up the rotary encoder in Arduino as described here: https://www.youtube.com/watch?v=HQuLZHsGZdI
+Arduino patch is a modified version of http://www.circuitsathome.com/mcu/programming/reading-rotary-encoder-on-arduino
 
-2. To be continued…
+How the encoder works, and how to fix the “bounce”: https://www.youtube.com/watch?v=HQuLZHsGZdI
