@@ -1,0 +1,137 @@
+15:02:05,323  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.PRETTY_HTML' found, using default value true
+15:02:05,325  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.ALLOW_JAVASCRIPT' found, using default value true
+15:02:05,325  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.RENDER_CLEAR_JAVASCRIPT_FOR_BUTTON' found, using default value false
+15:02:05,326  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.SAVE_FORM_SUBMIT_LINK_IE' found, using default value false
+15:02:05,326  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.READONLY_AS_DISABLED_FOR_SELECTS' found, using default value true
+15:02:05,326  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.RENDER_VIEWSTATE_ID' found, using default value true
+15:02:05,327  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.STRICT_XHTML_LINKS' found, using default value true
+15:02:05,327  INFO MyfacesConfig:293 - No context init parameter 'org.apache.myfaces.CONFIG_REFRESH_PERIOD' found, using default value 2
+15:02:05,327  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.VIEWSTATE_JAVASCRIPT' found, using default value false
+15:02:05,327  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.DETECT_JAVASCRIPT' found, using default value false
+15:02:05,328  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.AUTO_SCROLL' found, using default value false
+15:02:05,328  INFO MyfacesConfig:280 - No context init parameter 'org.apache.myfaces.ADD_RESOURCE_CLASS' found, using default value org.apache.myfaces.renderkit.html.util.DefaultAddResource
+15:02:05,328  INFO MyfacesConfig:280 - No context init parameter 'org.apache.myfaces.RESOURCE_VIRTUAL_PATH' found, using default value /faces/myFacesExtensionResource
+15:02:05,329  INFO MyfacesConfig:237 - Starting up Tomahawk on the MyFaces-JSF-Implementation
+15:02:05,334  INFO Jsp20FacesInitializer:70 - This application isn't running in a JSP 2.1 container.
+15:02:05,334  INFO Jsp20FacesInitializer:94 - Either you haven't specified the ExpressionFactory implementation, or an error occured while instantiating the implementation you've specified. However, attempting to load a known implementation.
+15:02:05,372  INFO FacesConfigurator:292 - Reading standard config META-INF/standard-faces-config.xml
+15:02:05,460  INFO FacesConfigurator:511 - Reading config : jar:file:/usr/local/tomcat/webapps/theatre/WEB-INF/lib/jsf-facelets.jar!/META-INF/faces-config.xml
+15:02:05,466  INFO FacesConfigurator:511 - Reading config : jar:file:/usr/local/tomcat/webapps/theatre/WEB-INF/lib/richfaces-impl-3.2.2-SNAPSHOT-sources.jar!/META-INF/faces-config.xml
+15:02:05,468  INFO FacesConfigurator:511 - Reading config : jar:file:/usr/local/tomcat/webapps/theatre/WEB-INF/lib/richfaces-impl-3.2.2-SNAPSHOT.jar!/META-INF/faces-config.xml
+15:02:05,471  INFO FacesConfigurator:511 - Reading config : jar:file:/usr/local/tomcat/webapps/theatre/WEB-INF/lib/richfaces-ui-3.2.2-SNAPSHOT.jar!/META-INF/faces-config.xml
+15:02:05,493  INFO FacesConfigurator:511 - Reading config : jar:file:/usr/local/tomcat/webapps/theatre/WEB-INF/lib/tomahawk-1.1.6.jar!/META-INF/faces-config.xml
+15:02:05,510  WARN FacesConfigurator:556 - /WEB-INF/faces-config.xml has been specified in the javax.faces.CONFIG_FILES context parameter of the deployment descriptor. This will automatically be removed, if we wouldn't do this, it would be loaded twice.  See JSF spec 1.1, 10.3.2
+15:02:05,511  INFO FacesConfigurator:539 - Reading config /WEB-INF/faces-managed-beans.xml
+15:02:05,525  INFO FacesConfigurator:539 - Reading config /WEB-INF/faces-navigation.xml
+15:02:05,533  INFO FacesConfigurator:574 - Reading config /WEB-INF/faces-config.xml
+15:02:05,542  INFO FacesConfigurator:331 - Starting up MyFaces-package : myfaces-api in version : 1.2.3 from path : file:/usr/local/tomcat/webapps/theatre/WEB-INF/lib/myfaces-api-1.2.3.jar
+15:02:05,542  INFO FacesConfigurator:331 - Starting up MyFaces-package : myfaces-impl in version : 1.2.3 from path : file:/usr/local/tomcat/webapps/theatre/WEB-INF/lib/myfaces-impl-1.2.3.jar
+15:02:05,543  INFO FacesConfigurator:339 - MyFaces-package : tomahawk-sandbox not found.
+15:02:05,543  INFO FacesConfigurator:331 - Starting up MyFaces-package : tomahawk in version : 1.1.6 from path : file:/usr/local/tomcat/webapps/theatre/WEB-INF/lib/tomahawk-1.1.6.jar
+15:02:06,555  WARN FacesConfigurator:780 - More than one managed bean w/ the name of 'a4j' - only keeping the last 
+15:02:06,556  WARN FacesConfigurator:780 - More than one managed bean w/ the name of 'a4jSkin' - only keeping the last 
+15:02:06,556  WARN FacesConfigurator:780 - More than one managed bean w/ the name of 'richSkin' - only keeping the last 
+15:02:06,556  WARN FacesConfigurator:780 - More than one managed bean w/ the name of 'ajaxContext' - only keeping the last 
+15:02:06,557  WARN FacesConfigurator:780 - More than one managed bean w/ the name of 'graphHandler' - only keeping the last 
+15:02:06,571  INFO FacesConfigurator:1047 - Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+15:02:06,574  INFO AbstractFacesInitializer:91 - ServletContext '/usr/local/tomcat/webapps/theatre/' initialized.
+15:02:06,592  INFO [/theatre]:647 - Initializing Spring root WebApplicationContext
+15:02:06,593  INFO ContextLoader:177 - Root WebApplicationContext: initialization started
+15:02:06,623  INFO XmlWebApplicationContext:378 - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@738d56e: display name [Root WebApplicationContext]; startup date [Tue Dec 23 15:02:06 MSK 2014]; root of context hierarchy
+15:02:06,686  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/contexts/applicationContext.xml]
+15:02:06,800  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/contexts/db4oServerContext.xml]
+15:02:06,822  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/contexts/db4oClientContext.xml]
+15:02:06,841  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/contexts/daoContext.xml]
+15:02:06,866  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/templates/applicationTemplates.xml]
+15:02:06,884  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/templates/nodeTemplateDefinition.xml]
+15:02:06,902  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/templates/videoTemplateDefinition.xml]
+15:02:06,923  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/templates/textTemplateDefinition.xml]
+15:02:06,939  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/templates/projectTemplateDefinition.xml]
+15:02:06,962  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/templates/imageTemplateDefinition.xml]
+15:02:06,978  INFO DefaultListableBeanFactory:324 - Overriding bean definition for bean 'mimeType': replacing [Root bean: class [ru.scriptum.model.properties.Property]; scope=singleton; abstract=false; lazyInit=false; autowireCandidate=true; autowireMode=0; dependencyCheck=0; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in ServletContext resource [/WEB-INF/templates/videoTemplateDefinition.xml]] with [Root bean: class [ru.scriptum.model.properties.Property]; scope=singleton; abstract=false; lazyInit=false; autowireCandidate=true; autowireMode=0; dependencyCheck=0; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in ServletContext resource [/WEB-INF/templates/imageTemplateDefinition.xml]]
+15:02:06,979  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/templates/fileTemplateDefinition.xml]
+15:02:06,994  INFO DefaultListableBeanFactory:324 - Overriding bean definition for bean 'mimeType': replacing [Root bean: class [ru.scriptum.model.properties.Property]; scope=singleton; abstract=false; lazyInit=false; autowireCandidate=true; autowireMode=0; dependencyCheck=0; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in ServletContext resource [/WEB-INF/templates/imageTemplateDefinition.xml]] with [Root bean: class [ru.scriptum.model.properties.Property]; scope=singleton; abstract=false; lazyInit=false; autowireCandidate=true; autowireMode=0; dependencyCheck=0; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in ServletContext resource [/WEB-INF/templates/fileTemplateDefinition.xml]]
+15:02:06,994  INFO DefaultListableBeanFactory:324 - Overriding bean definition for bean 'fileSize': replacing [Root bean: class [ru.scriptum.model.properties.Property]; scope=singleton; abstract=false; lazyInit=false; autowireCandidate=true; autowireMode=0; dependencyCheck=0; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in ServletContext resource [/WEB-INF/templates/videoTemplateDefinition.xml]] with [Root bean: class [ru.scriptum.model.properties.Property]; scope=singleton; abstract=false; lazyInit=false; autowireCandidate=true; autowireMode=0; dependencyCheck=0; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in ServletContext resource [/WEB-INF/templates/fileTemplateDefinition.xml]]
+15:02:06,995  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/templates/rootTemplateDefinition.xml]
+15:02:07,007  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/templates/geoTemplateDefinition.xml]
+15:02:07,022  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/templates/inventoryTemplateDefinition.xml]
+15:02:07,033  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/templates/mapContainerTemplateDefinition.xml]
+15:02:07,046  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/templates/mapTemplateDefinition.xml]
+15:02:07,058  INFO XmlBeanDefinitionReader:293 - Loading XML bean definitions from ServletContext resource [/WEB-INF/templates/webObjectTemplateDefinition.xml]
+15:02:07,069  INFO DefaultListableBeanFactory:324 - Overriding bean definition for bean 'mimeType': replacing [Root bean: class [ru.scriptum.model.properties.Property]; scope=singleton; abstract=false; lazyInit=false; autowireCandidate=true; autowireMode=0; dependencyCheck=0; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in ServletContext resource [/WEB-INF/templates/fileTemplateDefinition.xml]] with [Root bean: class [ru.scriptum.model.properties.Property]; scope=singleton; abstract=false; lazyInit=false; autowireCandidate=true; autowireMode=0; dependencyCheck=0; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in ServletContext resource [/WEB-INF/templates/webObjectTemplateDefinition.xml]]
+15:02:07,070  INFO XmlWebApplicationContext:393 - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@738d56e]: org.springframework.beans.factory.support.DefaultListableBeanFactory@79cb374f
+15:02:07,139  INFO PropertyPlaceholderConfigurer:175 - Loading properties file from ServletContext resource [/WEB-INF/smtpConf.properties]
+15:02:07,159  INFO DefaultListableBeanFactory:275 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@79cb374f: defining beans [messageSource,localeContext,db4oServer,db4oClient,dao,userDao,propertyPlaceholder,mailSender,userService,randomService,beanService,beanBuilder,imageService,nodeNameLabel,nodeTemplate,videoName,video,mimeType,fileSize,videoTemplate,textNameLabel,text,textTemplate,projectName,projectPlay,projectAuthor,projectVenue,director,state,projectTemplate,imageNameLabel,image,annotation,imageTemplate,fileName,file,fileTemplate,rootTemplate,longitude,latitude,zoom,geoTemplate,inventoryNameLabel,inventoryTemplate,mapContainerNameLabel,mapContainerTemplate,mapNameLabel,mapLevel,mapTemplate,nameLabel,webObject,webObjectTemplate]; root of factory hierarchy
+15:02:07,634  INFO ContextLoader:197 - Root WebApplicationContext: initialization completed in 1041 ms
+15:02:07,661  INFO CacheManager:51 - Selected [org.ajax4jsf.cache.LRUMapCacheFactory] cache factory
+15:02:07,663  INFO LRUMapCacheFactory:44 - Creating LRUMap cache instance using parameters: {org.ajax4jsf.COMPRESS_STYLE=true, contextConfigLocation=/WEB-INF/contexts/applicationContext.xml
+			/WEB-INF/contexts/db4oServerContext.xml
+			/WEB-INF/contexts/db4oClientContext.xml
+			/WEB-INF/contexts/daoContext.xml
+			/WEB-INF/templates/applicationTemplates.xml, webAppRootKey=webapp.root, org.ajax4jsf.COMPRESS_SCRIPT=true, org.apache.myfaces.CHECK_EXTENSIONS_FILTER=false, org.richfaces.LoadStyleStrategy=DEFAULT, org.ajax4jsf.handleViewExpiredOnClient=true, facelets.LIBRARIES=/WEB-INF/tomahawk.taglib.xml, javax.faces.DEFAULT_SUFFIX=.xhtml, com.sun.faces.validateXml=true, org.ajax4jsf.VIEW_HANDLERS=com.sun.facelets.FaceletViewHandler, javax.faces.CONFIG_FILES=/WEB-INF/faces-config.xml,/WEB-INF/faces-managed-beans.xml,/WEB-INF/faces-navigation.xml, javax.faces.STATE_SAVING_METHOD=server, org.ajax4jsf.xmlparser.ORDER=TIDY, org.richfaces.LoadScriptStrategy=DEFAULT, org.richfaces.SKIN=blueSky, com.sun.faces.disableVersionTracking=true, com.sun.faces.enableRestoreView11Compatibility=true}
+15:02:07,663  INFO LRUMapCacheFactory:48 - Creating LRUMap cache instance of default capacity
+15:02:07,675  INFO CacheManager:51 - Selected [org.ajax4jsf.cache.LRUMapCacheFactory] cache factory
+15:02:07,677  INFO LRUMapCacheFactory:44 - Creating LRUMap cache instance using parameters: {org.ajax4jsf.COMPRESS_STYLE=true, contextConfigLocation=/WEB-INF/contexts/applicationContext.xml
+			/WEB-INF/contexts/db4oServerContext.xml
+			/WEB-INF/contexts/db4oClientContext.xml
+			/WEB-INF/contexts/daoContext.xml
+			/WEB-INF/templates/applicationTemplates.xml, webAppRootKey=webapp.root, org.ajax4jsf.COMPRESS_SCRIPT=true, org.apache.myfaces.CHECK_EXTENSIONS_FILTER=false, org.richfaces.LoadStyleStrategy=DEFAULT, org.ajax4jsf.handleViewExpiredOnClient=true, facelets.LIBRARIES=/WEB-INF/tomahawk.taglib.xml, javax.faces.DEFAULT_SUFFIX=.xhtml, com.sun.faces.validateXml=true, org.ajax4jsf.VIEW_HANDLERS=com.sun.facelets.FaceletViewHandler, javax.faces.CONFIG_FILES=/WEB-INF/faces-config.xml,/WEB-INF/faces-managed-beans.xml,/WEB-INF/faces-navigation.xml, javax.faces.STATE_SAVING_METHOD=server, org.ajax4jsf.xmlparser.ORDER=TIDY, org.richfaces.LoadScriptStrategy=DEFAULT, org.richfaces.SKIN=blueSky, com.sun.faces.disableVersionTracking=true, com.sun.faces.enableRestoreView11Compatibility=true}
+15:02:07,677  INFO LRUMapCacheFactory:48 - Creating LRUMap cache instance of default capacity
+15:02:07,679 DEBUG FacesServlet:100 - init begin
+15:02:07,681 DEBUG FacesServlet:109 - init end
+15:02:40,106 DEBUG FacesServlet:143 - service begin
+15:02:40,111  WARN FacesConfigurator:556 - /WEB-INF/faces-config.xml has been specified in the javax.faces.CONFIG_FILES context parameter of the deployment descriptor. This will automatically be removed, if we wouldn't do this, it would be loaded twice.  See JSF spec 1.1, 10.3.2
+15:02:40,517  INFO DefaultLifecycleProviderFactory:67 - Using LifecycleProvider org.apache.myfaces.config.annotation.ResourceAnnotationLifecycleProvider
+15:02:40,533  INFO ServiceLocatorBean:106 - Service locator bean is initialized
+15:02:41,468  INFO MyfacesConfig:204 - No context init parameter 'org.apache.myfaces.PRETTY_HTML' found, using default value true
+15:02:41,468  INFO MyfacesConfig:204 - No context init parameter 'org.apache.myfaces.ALLOW_JAVASCRIPT' found, using default value true
+15:02:41,469  INFO MyfacesConfig:204 - No context init parameter 'org.apache.myfaces.READONLY_AS_DISABLED_FOR_SELECTS' found, using default value true
+15:02:41,469  INFO MyfacesConfig:204 - No context init parameter 'org.apache.myfaces.DETECT_JAVASCRIPT' found, using default value false
+15:02:41,469  INFO MyfacesConfig:204 - No context init parameter 'org.apache.myfaces.AUTO_SCROLL' found, using default value false
+15:02:41,470  INFO MyfacesConfig:229 - No context init parameter 'org.apache.myfaces.ADD_RESOURCE_CLASS' found, using default value org.apache.myfaces.renderkit.html.util.DefaultAddResource
+15:02:41,470  INFO MyfacesConfig:229 - No context init parameter 'org.apache.myfaces.RESOURCE_VIRTUAL_PATH' found, using default value /faces/myFacesExtensionResource
+15:02:41,470  INFO MyfacesConfig:185 - Starting up Tomahawk on the MyFaces-JSF-Implementation
+15:02:41,471 DEBUG FacesServlet:162 - service end
+15:02:41,837 DEBUG FacesServlet:143 - service begin
+15:02:41,837  WARN FacesConfigurator:556 - /WEB-INF/faces-config.xml has been specified in the javax.faces.CONFIG_FILES context parameter of the deployment descriptor. This will automatically be removed, if we wouldn't do this, it would be loaded twice.  See JSF spec 1.1, 10.3.2
+15:02:41,938  WARN AjaxContext:368 - Target component for id showname not found
+15:02:41,946 DEBUG FacesServlet:162 - service end
+15:02:43,925 DEBUG FacesServlet:143 - service begin
+15:02:43,925  WARN FacesConfigurator:556 - /WEB-INF/faces-config.xml has been specified in the javax.faces.CONFIG_FILES context parameter of the deployment descriptor. This will automatically be removed, if we wouldn't do this, it would be loaded twice.  See JSF spec 1.1, 10.3.2
+15:02:43,969 DEBUG FacesServlet:162 - service end
+15:02:44,163 DEBUG FacesServlet:143 - service begin
+15:02:44,164  WARN FacesConfigurator:556 - /WEB-INF/faces-config.xml has been specified in the javax.faces.CONFIG_FILES context parameter of the deployment descriptor. This will automatically be removed, if we wouldn't do this, it would be loaded twice.  See JSF spec 1.1, 10.3.2
+15:02:44,191  WARN AjaxContext:368 - Target component for id showname not found
+15:02:44,197 DEBUG FacesServlet:162 - service end
+15:02:49,991 DEBUG FacesServlet:143 - service begin
+15:02:49,991  WARN FacesConfigurator:556 - /WEB-INF/faces-config.xml has been specified in the javax.faces.CONFIG_FILES context parameter of the deployment descriptor. This will automatically be removed, if we wouldn't do this, it would be loaded twice.  See JSF spec 1.1, 10.3.2
+15:02:50,067 DEBUG FacesServlet:162 - service end
+15:02:50,230 DEBUG FacesServlet:143 - service begin
+15:02:50,230  WARN FacesConfigurator:556 - /WEB-INF/faces-config.xml has been specified in the javax.faces.CONFIG_FILES context parameter of the deployment descriptor. This will automatically be removed, if we wouldn't do this, it would be loaded twice.  See JSF spec 1.1, 10.3.2
+15:02:50,257  WARN AjaxContext:368 - Target component for id showname not found
+15:02:50,264 DEBUG FacesServlet:162 - service end
+15:02:51,863 DEBUG FacesServlet:143 - service begin
+15:02:51,863  WARN FacesConfigurator:556 - /WEB-INF/faces-config.xml has been specified in the javax.faces.CONFIG_FILES context parameter of the deployment descriptor. This will automatically be removed, if we wouldn't do this, it would be loaded twice.  See JSF spec 1.1, 10.3.2
+15:02:51,967 DEBUG FacesServlet:162 - service end
+15:02:52,067 DEBUG FacesServlet:143 - service begin
+15:02:52,067  WARN FacesConfigurator:556 - /WEB-INF/faces-config.xml has been specified in the javax.faces.CONFIG_FILES context parameter of the deployment descriptor. This will automatically be removed, if we wouldn't do this, it would be loaded twice.  See JSF spec 1.1, 10.3.2
+15:02:52,118  WARN AjaxContext:368 - Target component for id showname not found
+15:02:52,124 DEBUG FacesServlet:162 - service end
+15:02:54,285 DEBUG FacesServlet:143 - service begin
+15:02:54,285  WARN FacesConfigurator:556 - /WEB-INF/faces-config.xml has been specified in the javax.faces.CONFIG_FILES context parameter of the deployment descriptor. This will automatically be removed, if we wouldn't do this, it would be loaded twice.  See JSF spec 1.1, 10.3.2
+15:02:54,316 DEBUG FacesServlet:162 - service end
+15:02:54,411 DEBUG FacesServlet:143 - service begin
+15:02:54,411  WARN FacesConfigurator:556 - /WEB-INF/faces-config.xml has been specified in the javax.faces.CONFIG_FILES context parameter of the deployment descriptor. This will automatically be removed, if we wouldn't do this, it would be loaded twice.  See JSF spec 1.1, 10.3.2
+15:02:54,439  WARN AjaxContext:368 - Target component for id showname not found
+15:02:54,444 DEBUG FacesServlet:162 - service end
+15:03:00,773 DEBUG FacesServlet:143 - service begin
+15:03:00,773  WARN FacesConfigurator:556 - /WEB-INF/faces-config.xml has been specified in the javax.faces.CONFIG_FILES context parameter of the deployment descriptor. This will automatically be removed, if we wouldn't do this, it would be loaded twice.  See JSF spec 1.1, 10.3.2
+15:03:00,888 DEBUG FacesServlet:162 - service end
+15:03:00,890  WARN ReducedHTMLParser:566 - Invalid tag found: unexpected input while looking for attr name or '/>' at line 193
+15:03:00,890  WARN ReducedHTMLParser:476 - Invalid HTML; bare lessthan sign found at line 211
+15:03:00,891  WARN ReducedHTMLParser:476 - Invalid HTML; bare lessthan sign found at line 213
+15:03:00,891  WARN ReducedHTMLParser:476 - Invalid HTML; bare lessthan sign found at line 273
+15:03:01,453 DEBUG FacesServlet:143 - service begin
+15:03:01,453  WARN FacesConfigurator:556 - /WEB-INF/faces-config.xml has been specified in the javax.faces.CONFIG_FILES context parameter of the deployment descriptor. This will automatically be removed, if we wouldn't do this, it would be loaded twice.  See JSF spec 1.1, 10.3.2
+15:03:01,488  WARN AjaxContext:368 - Target component for id showname not found
+15:03:01,497 DEBUG FacesServlet:162 - service end
