@@ -20,4 +20,7 @@ The following is the list of the intended exercises (only some of them are solve
 12. Using infrared light and infrared camera to create "tunnels through walls" (IR camera picks up the IR light reflected from walls and uses that blob as a mask on the video projected on the wall).
 13. Using rotary encoder and Arduino, create a dynamic projection mapping of a rotating object.
 
+
+Snapshot of the interactive video installation “Star Wars” built based on the exercise 4 plus live stream from ISS and video shot from a drone in Donbass
+
 ![Preview](https://raw.github.com/eighteight/MeyerholdTheatreCenter2014/master/star-wars-interactive-videoinstallation.jpg)
