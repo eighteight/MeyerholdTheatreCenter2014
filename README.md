@@ -15,7 +15,7 @@ The following is the list of the exercises (only some of them are solved in the 
 7. Syphon as an interface to a DSLR
 8. OSC messaging Isadora from a smartphone (TouchOSC on IOS, android --???)
 9. Streaming from a smartphone camera into Isadora (EpocCam on IOS, android -???)
-10. Using pulsecontroller as a MIDI input into Isadora to control some effect.
+10. Using pulsecontroller as a MIDI input into Isadora to control a video or sound effect.
 11. Hacking PS3 EYE to accept only infrared light, infrared tracking of actors using IR lit background
 12. Using infrared light and infrared camera to create "tunnels through walls" (IR camera picks up the IR light reflected from walls and uses that blob as a mask on the video projected on the wall).
 13. Using rotary encoder and Arduino, create a dynamic projection mapping of a rotating object.
