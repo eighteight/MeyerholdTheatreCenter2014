@@ -6,7 +6,7 @@ Isadora http://troikatronix.com/download/isadora-pre-releases/
 
 Arduino software: http://arduino.cc/en/Main/Software
 
-HC-SR04 library: https://code.google.com/p/arduino-new-ping/ (download and unzip folder into /Users/THIS_USER/Documents/Arduino/libraries
+HC-SR04 library: https://bitbucket.org/teckel12/arduino-new-ping/wiki/Home (download and unzip folder into /Users/THIS_USER/Documents/Arduino/libraries
 
 Arduino hardware (I used Uno r3)
 
